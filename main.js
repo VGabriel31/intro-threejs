@@ -18,7 +18,7 @@ document.body.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 
 //Crea un material para la geometría
-const material = new THREE.MeshBasicMaterial({ color: 0x9395ed });
+const material = new THREE.MeshBasicMaterial({ color: 0x3d40c4 });
 
 //Dibuja la Geometría con el material
 const cube = new THREE.Mesh(geometry, material);
